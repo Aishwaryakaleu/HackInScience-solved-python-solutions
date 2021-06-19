@@ -1,0 +1,2 @@
+import math // This is used to import all the mathematical functions//
+print(math.factorial(27))
