@@ -1,0 +1,2 @@
+for i in range(0,10): // i is a counter which iterates on number starting from 0 to 9 //
+    print(i ** 2) // ** asterisk is used to assign the values for the numbers which iterates using for loop //
