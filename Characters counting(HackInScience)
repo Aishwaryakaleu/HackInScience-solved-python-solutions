@@ -1,2 +1,20 @@
+whetting_your_appetite = "Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms."
+length = 0
+for c in whetting_your_appetite:
+    length += 1
+    
+print(length)
+
+
+---------------------------------------------------------or-------------------------------------------------------------------------------------------------------------------------
+whetting_your_appetite = "Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms."
+len_num_car = len(whetting_your_appetite)
+print(len_num_car)
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+THIS IS ALSO CORRECT BUT WE CANNOT MODIFY THE GIVEN VALUE BY LENGTH
+
+
 whetting_your_appetite = len("Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms.")
 print (whetting_your_appetite)
